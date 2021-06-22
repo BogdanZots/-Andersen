@@ -1,0 +1,23 @@
+@mixin main-h2 {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+@mixin main-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+@mixin f-horisontal-align {
+    display: flex;
+    align-items: center;
+}

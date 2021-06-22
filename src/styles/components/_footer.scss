@@ -1,0 +1,23 @@
+.footer {
+    background-color: $gold;
+    transform: translateY(-2px);
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        padding: 35px 0px;
+    }
+    &__place{
+        @include main-text;
+        font-size: 14px;
+        margin-left: 35px;
+    }
+    &__tel{
+        margin-left: 100px;
+    }
+     &__privicy{
+         margin-left: auto;
+         color: black;
+         text-decoration: underline;
+     }
+}

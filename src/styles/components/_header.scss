@@ -1,0 +1,55 @@
+@import 'consts';
+@import 'mixins';
+
+
+
+.header {
+    &__top{
+        padding: 16px 0px;
+        background: $gold;
+        &-inner{
+            @include f-horisontal-align;
+            justify-content: space-between;
+        }
+    }
+    &__lang{
+        text-transform: uppercase;
+    }
+    &__bottom{
+        padding: 22px 0px;
+        background-color: $dark;
+        &-inner{
+            @include f-horisontal-align;
+        }
+    }
+    &__logo{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            height: 46px;
+            width: 1px;
+            background-color: white;
+            right: -30px;
+            top: 10%;
+        }
+    }
+    &__office{
+        margin-left: 60px;
+        @include f-horisontal-align;
+        cursor: pointer;
+        &-text{
+            margin-left: 10px;
+        }
+    }
+    &__nav{
+        margin-left: auto;
+        nav ul{
+            text-transform: uppercase;
+            @include f-horisontal-align;
+            & li{
+                margin-left: 30px;
+            }
+        }
+    }
+}

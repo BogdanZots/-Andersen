@@ -1,0 +1,64 @@
+.transportation__europe {
+    background-color: $dark-light;
+
+    &-inner {
+        @include f-horisontal-align;
+        padding-top: $default-padding;
+        justify-content: space-between;
+        padding-bottom: 125px;
+    }
+
+    &-block {
+        position: relative;
+    }
+
+    &-h2 {
+        @include main-h2;
+        max-width: 445px;
+    }
+
+    &-text {
+        @include main-text;
+        margin-top: 30px;
+        max-width: 440px;
+    }
+
+    &-btn {
+        margin-top: 30px;
+        margin-top: 30px;
+        background-color: $gold;
+        display: inline-block;
+        padding: 15px 48px;
+        cursor: pointer;
+    }
+
+    &-arrows {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: $gold;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: .1em;
+        min-height: 100%;
+        text-transform: uppercase;
+    }
+    &-arrowPrev{
+        @include f-horisontal-align;
+        cursor: pointer;
+        & img{
+            margin-right: 35px;
+        }
+    }
+    &-arrowNext {
+        @include  f-horisontal-align;
+        cursor: pointer;
+        & img{
+         margin-left: 35px;
+        }
+    }
+}

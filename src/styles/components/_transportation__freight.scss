@@ -1,0 +1,34 @@
+.transportation__freigth {
+    background-image: url(../assets/images/main-wagon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 620px;
+    position: relative;
+
+    &-inner {
+        @include f-horisontal-align;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    &-content {
+        border: 1px solid #C8A35F;
+        padding: 45px 72px;
+    }
+
+    &-h1 {
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 75px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+
+    &-text {
+        margin-top: 45px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

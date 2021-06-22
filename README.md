@@ -1,12 +1,4 @@
-## Готовая сборка Webpack
-
-<div>
-    <a href="https://github.com/webpack/webpack">
-        <img width="150" height="150" src="https://webpack.js.org/assets/icon-square-big.svg">
-    </a>
-</div>
-<br/>
-<br/>
+## Первое задание на вёрстку Зоц Богдан 
 
 
 
@@ -64,7 +56,6 @@ npm install
 npm start
 ```
 
-## Связаться со мной
 
 
 
